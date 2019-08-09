@@ -81,7 +81,7 @@ using_delete
 a=["a","b","b","b","c"]
 a.delete("b") #=> "b"
 a #=> ["a""c"]
-
+a.delete
 
 using_delete_at
 
