@@ -66,6 +66,7 @@ using_uniq
 a=["a","a","b","b","c"]
 a.uniq #=> ["a","b","c"]
 
+b[[]]
 using_flatten
 
 
