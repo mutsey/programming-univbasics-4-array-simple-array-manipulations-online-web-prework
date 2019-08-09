@@ -25,6 +25,13 @@ p maru_cat
 pop_with_args
 
 using_shift
+famous_cats = ["lil' bub", "grumpy cat", "Maru"]
+lil_bub = famous_cats.shift
+ 
+p famous_cats
+#=> ["grumpy cat", "Maru"]
+p lil_bub
+#=> lil' bub
 
 shift_with_args
 
