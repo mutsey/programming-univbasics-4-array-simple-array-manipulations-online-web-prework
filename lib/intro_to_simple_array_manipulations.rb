@@ -18,21 +18,29 @@ using_pop
 cats = ["orange", "red", "black"]
 black = cats.pop
  
-p famous_cats
-#=> ["lil' bub", "grumpy cat"]
-p maru_cat
-#=> Maru
+p cats
+#=> ["orange", "red"]
+p black
+#=> black
 
 pop_with_args
 
+cats = ["orange", "red", "black"]
+black = cats.pop
+ 
+p cats
+#=> ["orange", "red"]
+p black
+#=> black
+
 using_shift
-famous_cats = ["lil' bub", "grumpy cat", "Maru"]
-lil_bub = famous_cats.shift
+famous_cats = ["orange", "red", "black"]
+orange = famous_cats.shift
  
 p famous_cats
-#=> ["grumpy cat", "Maru"]
+#=> ["red", "black"]
 p lil_bub
-#=> lil' bub
+#=> orange
 
 shift_with_args
 
