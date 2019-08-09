@@ -55,6 +55,7 @@ using_concat
 ["a","b"],concat(["c","d"])#=>["a","b","c","d"]
 a=[1,2,3]
 a.concat([4,5])
+a
 
 using_insert
 
