@@ -52,7 +52,7 @@ p lil_bub
 #=> orange
 
 using_concat
-["a","b"],concat(["c","d"])#=>["a","b","c","d"]
+["a","b"].concat(["c","d"])#=>["a","b","c","d"]
 a=[1,2,3]
 a.concat([4,5])
 a #=> [1,2,3,4,5]
