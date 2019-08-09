@@ -7,7 +7,12 @@ p famous_cats
 #=> ["lil' bub", "grumpy cat", "Maru", "nala cat"]
 
 using_unshift
-
+famous_cats = ["lil' bub", "grumpy cat", "Maru"]
+ 
+famous_cats.unshift("nala cat")
+ 
+p famous_cats
+#=> ["nala cat", "lil' bub", "grumpy cat", "Maru"]
 using_pop
 
 pop_with_args
