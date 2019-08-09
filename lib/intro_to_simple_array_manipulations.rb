@@ -88,4 +88,4 @@ using_delete_at
 a=["cat","bat","rat","hat"]
 a.delete_2 #=> "rat"
 a #=> ["cat","bat","hat"]
-a.delete_at(99) #=>nil
+a.delete_at(99) #=> nil
