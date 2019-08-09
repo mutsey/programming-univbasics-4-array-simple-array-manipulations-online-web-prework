@@ -1,21 +1,22 @@
 using_push 
-famous_cats = ["lil' bub", "grumpy cat", "Maru"]
+cats = ["orange", "red", "black"]
  
-famous_cats.push("nala cat")
+cats.push("black")
  
-p famous_cats
-#=> ["lil' bub", "grumpy cat", "Maru", "nala cat"]
+p cats
+#=> ["orange", "red", "black", "grey"]
 
 using_unshift
-famous_cats = ["lil' bub", "grumpy cat", "Maru"]
+cats = ["orange", "red", "black"]
  
-famous_cats.unshift("nala cat")
+cats.unshift("grey")
  
-p famous_cats
-#=> ["nala cat", "lil' bub", "grumpy cat", "Maru"]
+p cats
+#=> ["grey", "orange", "red", "black"]
+
 using_pop
-famous_cats = ["lil' bub", "grumpy cat", "Maru"]
-maru_cat = famous_cats.pop
+cats = ["orange", "red", "black"]
+black = cats.pop
  
 p famous_cats
 #=> ["lil' bub", "grumpy cat"]
