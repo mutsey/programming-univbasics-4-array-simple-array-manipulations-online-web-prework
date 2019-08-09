@@ -43,13 +43,23 @@ p lil_bub
 #=> orange
 
 shift_with_args
+famous_cats = ["orange", "red", "black"]
+orange = famous_cats.shift
+ 
+p famous_cats
+#=> ["red", "black"]
+p lil_bub
+#=> orange
 
 using_concat
+
 
 using_insert
 
 
+
 using_uniq
+
 
 using_flatten
 
