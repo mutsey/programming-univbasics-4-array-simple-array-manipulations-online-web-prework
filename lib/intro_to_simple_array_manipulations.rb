@@ -86,4 +86,4 @@ a.delete("z") #=>"not found"
 
 using_delete_at
 a=["cat","bat","Rat","hat"]
-a.delete_2 #=>
+a.delete_2 #=> rat
