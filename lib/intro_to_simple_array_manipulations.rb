@@ -59,7 +59,7 @@ a #=> [1,2,3,4,5]
 
 using_insert
 a=%w{a b c d}
-a.insert
+a.insert(2,99) =>
 
 
 using_uniq
