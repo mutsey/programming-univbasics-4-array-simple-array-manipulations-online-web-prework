@@ -80,7 +80,8 @@ a.flatten(1) #=> [1,2,3,[4,5]]
 using_delete
 a=["a","b","b","b","c"]
 a.delete("b") #=> "b"
-a #=> 
+a #=> ["a""c"]
+
 
 using_delete_at
 
