@@ -71,7 +71,8 @@ b.uniq {|s|s.first} => [["student,"sam"],["teacher",Matz"]
 
 using_flatten
 a=[1,2,3] => [1,2,3]
-b=[4,5,6[7,8]] 
+b=[4,5,6[7,8]] #=> [4,5,6[7,8]
+
 
 using_delete
 
