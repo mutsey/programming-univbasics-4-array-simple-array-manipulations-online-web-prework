@@ -60,7 +60,7 @@ a #=> [1,2,3,4,5]
 using_insert
 a=%w{a b c d}
 a.insert(2,99) => ["a","b",99,"c","d"]
-a.inset()
+a.inset(-2,1,2,3) => 
 
 using_uniq
 
