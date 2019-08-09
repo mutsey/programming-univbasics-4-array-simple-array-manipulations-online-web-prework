@@ -53,7 +53,7 @@ p lil_bub
 
 using_concat
 ["a","b"],concat(["c","d"])#=>["a","b","c","d"]
-a=[]
+a=[1,2,3]
 
 using_insert
 
