@@ -70,6 +70,7 @@ b[["student", "sam"],["student","george"],["teacher,"matz]]
 b.uniq {|s|s.first} => [["student,"sam"],["teacher",Matz"]
 
 using_flatten
+a=[1,2,3] => [1,2,3]
 
 
 using_delete
