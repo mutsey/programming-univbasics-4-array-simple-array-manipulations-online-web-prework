@@ -52,7 +52,7 @@ p lil_bub
 #=> orange
 
 using_concat
-["a","b"],concat(["c","d"])
+["a","b"],concat(["c","d"])#=>
 
 using_insert
 
