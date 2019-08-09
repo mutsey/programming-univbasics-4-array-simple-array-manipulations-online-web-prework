@@ -64,7 +64,7 @@ a.inset(-2,1,2,3) => ["a","b",99,"c",1,2,3,"d"]
 
 using_uniq
 a=["a","a","b","b","c"]
-a.uniq #=>
+a.uniq #=> ["a","b","c"]
 
 using_flatten
 
