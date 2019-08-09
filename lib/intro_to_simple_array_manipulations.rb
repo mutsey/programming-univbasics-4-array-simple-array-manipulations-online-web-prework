@@ -67,7 +67,7 @@ a=["a","a","b","b","c"]
 a.uniq #=> ["a","b","c"]
 
 b[["student", "sam"],["student","george"],["teacher,"matz]]
-b.uniq 
+b.uniq {|s|
 using_flatten
 
 
