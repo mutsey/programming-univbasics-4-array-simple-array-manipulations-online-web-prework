@@ -14,6 +14,13 @@ famous_cats.unshift("nala cat")
 p famous_cats
 #=> ["nala cat", "lil' bub", "grumpy cat", "Maru"]
 using_pop
+famous_cats = ["lil' bub", "grumpy cat", "Maru"]
+maru_cat = famous_cats.pop
+ 
+p famous_cats
+#=> ["lil' bub", "grumpy cat"]
+p maru_cat
+#=> Maru
 
 pop_with_args
 
